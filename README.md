@@ -1,5 +1,4 @@
 The AirBnB Clone Project
-AirBnB Logo
 
 
 Project Description
@@ -129,6 +128,7 @@ Usage	By itself --or-- help <command>
 -----	-----
 create	Creates a new instance of a valid Class, saves it (to the JSON file) and prints the id. Valid classes are: BaseModel, User, State, City, Amenity, Place, Review.
 Usage	create <class name>
+
 -----	-----
 show	Prints the string representation of an instance based on the class name and id
 Usage	show <class name> <id> --or-- <class name>.show(<id>)
@@ -144,3 +144,7 @@ Usage	update <class name> <id> <attribute name> "<attribute value>" ---or--- <cl
 -----	-----
 count	Retrieve the number of instances of a class.
 Usage	<class name>.count()
+  
+  Authors
+  Ukamaka Okpala
+  Pam Davou
