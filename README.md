@@ -145,5 +145,5 @@ count	Retrieve the number of instances of a class.
 Usage	<class name>.count()
   
   Authors
-  Ukamaka Okpala
-  Pam Davou
+  UKAMAKA OKPALA
+  PAM DAVOU
