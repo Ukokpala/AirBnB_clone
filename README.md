@@ -1,12 +1,12 @@
-###The AirBnB Clone Project
+# The AirBnB Clone Project
 
-Airbnb Icon
+## Airbnb Icon
 
 <img width="702" alt="Screenshot 2023-02-13 at 05 39 51" src="https://user-images.githubusercontent.com/111020223/218372161-62cfb58b-5430-41e8-bcb3-84c472548a17.png">
 
 
 
-##Project Description
+# Project Description
 
 This is the first part of the AirBnB clone project where we worked on the backend of the project whiles interfacing it with a console application with the help of the cmd module in python.
 
@@ -14,13 +14,13 @@ Data (python objects) generated are stored in a json file and can be accessed wi
 
 
 
-##Description of the command interpreter:
+## Description of the command interpreter:
 
 The interface of the application is just like the Bash shell except that this has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 
 This command line interpreter serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
 
-#Some of the commands available are:
+## Some of the commands available are:
 
 show
 create
@@ -36,11 +36,11 @@ Updating attributes of an object
 Destroying an object
 
 
-##How to start it
+## How to start it
 These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
 
 
-##Installing
+## Installing
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
 After cloning the repository you will have a folder called AirBnB_clone. In here there will be several files that allow the program to work.
@@ -67,12 +67,12 @@ models/review.py: Review class that inherits from BaseModel
 
 
 
-##How to use it
+## How to use it
 It can work in two different modes:
 
 
 
-#Interactive and Non-interactive.
+# Interactive and Non-interactive.
 
 In Interactive mode, the console will display a prompt (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again a wait for a new command. This can go indefinitely as long as the user does not exit the program.
 
@@ -109,14 +109,14 @@ EOF  help  quit
 (hbnb) 
 $
 
-##Format of Command Input
+## Format of Command Input
 In order to give commands to the console, these will need to be piped through an echo in case of Non-interactive mode.
 
 In Interactive Mode the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command didn't run successfully. In this mode, the console can be exited using the CTRL + D combination, CTRL + C, or the command quit or EOF.
 
 
 
-##Arguments
+## Arguments
 Most commands have several options or arguments that can be used when executing the program. In order for the Shell to recognize those parameters, the user must separate everything with spaces.
 
 Example:
@@ -139,7 +139,7 @@ The recognizable commands by the interpreter are the following:
 
 
 
-#Command	Description
+# Command	Description
 quit or EOF	Exits the program
 Usage	By itself
 -----	-----
@@ -165,6 +165,6 @@ Usage	update <class name> <id> <attribute name> "<attribute value>" ---or--- <cl
 count	Retrieve the number of instances of a class.
 Usage	<class name>.count()
   
-  ##Authors
+  # Authors
   UKAMAKA OKPALA
   PAM DAVOU
