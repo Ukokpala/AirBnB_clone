@@ -10,7 +10,7 @@ import models
 import unittest
 from datetime import datetime
 from time import sleep
-from models.review import Review
+from models.review import review
 
 
 class TestReview_instantiation(unittest.TestCase):
